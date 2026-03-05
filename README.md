@@ -21,15 +21,15 @@ My project will use:
 #### Purpose
 The game will give fans a chance to engage with the themes, characters, and setting of the book by imagining the lives of characters outside of what is shown on-page
 #### Use Cases
-- Users will sow and farm crops unique to the world of the Locked Tomb like suspicious black root vegetables and purple bulbs by selecting seeds in their inventory and clicking on tilled ground
-- Users will select dialogue options to interact with NPC characters like God, Gideon Nav's ghost, and Ianthe Tridentarius who will give additional context about the world and their relationships with Harrow. The user will be able to go up to NPCs and choose to start a conversation with them.
-- Users will be able to save and then load their game by pressing the "save" button on the main menu
-- Users will chop and collect wood by selecting the axe in their inventory and then clicking on a nearby tree.
+- Users will sow and farm crops unique to the world of the Locked Tomb like suspicious black root vegetables and purple bulbs
+- Users will be able to interact with NPC characters like God, Gideon Nav's ghost, and Ianthe Tridentarius who will give additional context about the world and their relationships with Harrow. The user will be able to go up to NPCs and choose to start a conversation with them.
+- Users will be able to save and then load their game
+- Users will chop and collect wood.
 #### Test Cases
-- bleh
-- bleh
-- bleh
-- bleh
+- By selecting seeds in their inventory and clicking on tilled ground the user should be able to sow crops. This will be self-tested.
+- When the user goes up to an NPC and choose to start a conversation with them they will select dialogue options to interact with them. This will be peer tested to make sure the dialogue is enjoyable to interact with.
+- By pressing the "save" button on the main menu the user will be able to save their game. This will be self-tested.
+- By selecting the axe in their inventory and then clicking on a nearby tree the user will be able to chop wood. I'll use a mixture of self-testing and peer evaluating to make sure the user experience is smooth.
 ### Non-Functional Requirements
 #### Performance
 The time between clicking the "start" button on the main menu and getting into the game should be under 2 seconds and the game should save the users progress every time they press the "save" button on the main menu
@@ -45,4 +45,13 @@ The game shouldn't require the user to input any personal or sensitive informati
 ### Social Impact
 - Target Audience: My target audience will be teens who will probably have good eyesight and are therefore able to read medium sized dialogue. Additionally, although the Locked Tomb Series has multiple translation, my target audience will only be english-speaking.
 - Potential Benefits: My game would give new material to a dedicated fandom, fostering conversation and connection, and interesting a new audience in the series, potentially encouraging teens to engage with literature.
-- Potential Risks: 
+- Potential Risks: The project's necromatic themes could upset some users and also the representation of the God character from the Locked Tomb Series. To avoid these risks I'll make the home screen accurately present the darker nature of the game and use God's alternate title The Necrolord Prime
+### Ethical Responsibilities
+- User data and privacy: The game won't collect user data
+- Representation and Inclusion: Despite the somewhat mundane setting of my project I'll try and accurately present the issues of immortality, sacrifice, and sapphic romance that are presented in Harrow the Ninth
+- Content sensitivity: the project will obviously contain discussions of necromancy but will avoid having any on-screen gore
+### Legal Considerations
+- Copyright and Intellectual Property: The dialogue in the game will be heavily inspired by and in some cases quote the book in order to immerse the user in the experience of the book. However this will qualify as fair use, as I won't be using more than 10% of the book, won't profit off of the project, and will give credit to the original author.
+- Terms of Use: [bleh]
+
+## Gant Chart
