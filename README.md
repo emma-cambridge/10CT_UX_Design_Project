@@ -54,4 +54,12 @@ The game shouldn't require the user to input any personal or sensitive informati
 - Copyright and Intellectual Property: The dialogue in the game will be heavily inspired by and in some cases quote the book in order to immerse the user in the experience of the book. However this will qualify as fair use, as I won't be using more than 10% of the book, won't profit off of the project, and will give credit to the original author.
 - Terms of Use: [bleh]
 
-## Gant Chart
+## Gantt Chart
+![Gantt Chart](gantt_chart.png "Gantt Chart")
+
+## PMI Table
+| UI Name | Plus | Minus | Implication |
+| ------- | ---- | ----- | ----------- |
+| Stardew Valley | Stardew Valley’s UI allows the player to navigate through the game with an inventory at the bottom of the screen to help the player access tools for farming, a quick loading screen, effective NPC interactions, and a clock which gives the player a sense of time. | The pixel art for the game doesn’t have an aesthetically appealing colour palette. | Overall, Stardew Valley’s UI is very close to what I want to achieve with my prototype. I plan to create an inventory, clock, and player interactions similar to what appears in the game, however I’ll aim to create a more aesthetically appealing version and also narrow the scope of my project by cutting out features like the inventory/navigation menu, combat, and fishing. |
+| Roots of Pacha | Features like dialogue options, beautiful pixel art, and intuitive menus make Roots of Pacha a successful game, as well as the unique features like prophecies which tie farming mechanics into the Stone Age setting. | The fishing mechanic is very annoying and the game is often critiqued for its slow pace. | Similarly to Stardew Valley, this game has a much broader scope than what I aim to achieve in my project and goes at a slower pace than I’d like my project to, but it also includes smooth character actions which make the game accessible. |
+| Hollow Knight | Hollow Knight has a mysterious, dark, and aesthetically pleasing yet simple art style, intuitive mechanics, and concise, effective, NPC interactions as well as world-building which immerses you in the story. | The game is time consuming and can be inaccessible to casual players |             |
