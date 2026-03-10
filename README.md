@@ -3,7 +3,7 @@
 #### Design Brief
 My project will be a farming simulator where the player is required to farm necromatic ingredients while learning about the world of Harrow the Ninth through NPC interactions and cut scenes. My target audience is people aged 15+ who are interested in fantasy settings and farming games.
 #### Book Choice and Justification
-Harrow the Ninth by Tamsyn Muir follows the journey of necromancer Harrowhark Nonegasimus after her ascension to Lyctorhood in the preceeding book Gideon the Ninth, as she tries to unravel the secrets that a past version of herself has locked away deep in her subconscious. [...]
+Harrow the Ninth by Tamsyn Muir follows the journey of necromancer Harrowhark Nonegasimus after her ascension to Lyctorhood in the preceeding book Gideon the Ninth, as she tries to become a soldier for the Necrolord Prime.But while Harrow navigates her new life in the Mithraeum with her apathetic and enigmatic teachers she slowly unravels the secrets a past version of herself has chosen to lock away deep in her subconscious. 
 #### User Experience Type
 My project will be a video game to allow the user to interact with the world of the Locked Tomb Series, and engage with the themes of depression, disillusionment, and how to move on after losing a loved one by putting them in Harrow's shoes.
 #### Target Market
@@ -13,7 +13,7 @@ My project will use:
 - Piskel for creating the pixel art for my sprites because of my familiarity with the program
 - Godot for creating the rest of my game because of its easy dialogue options, accessability, and because I have more experience using it than unity, adobe XD, etc.
 #### Initial Brainstorming
-[bleh]
+![Initial Brainstorming](initial_brainstorming.png "Brainstorm")
 
 
 ## Requirement Specification
