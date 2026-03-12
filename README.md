@@ -58,8 +58,18 @@ The game shouldn't require the user to input any personal or sensitive informati
 ![Gantt Chart](gantt_chart.png "Gantt Chart")
 
 ## PMI Table
+### UI
 | UI Name | Plus | Minus | Implication |
 | ------- | ---- | ----- | ----------- |
 | Stardew Valley | Stardew Valley’s UI allows the player to navigate through the game with an inventory at the bottom of the screen to help the player access tools for farming, a quick loading screen, effective NPC interactions, and a clock which gives the player a sense of time. | The pixel art for the game doesn’t have an aesthetically appealing colour palette. | Overall, Stardew Valley’s UI is very close to what I want to achieve with my prototype. I plan to create an inventory, clock, and player interactions similar to what appears in the game, however I’ll aim to create a more aesthetically appealing version and also narrow the scope of my project by cutting out features like the inventory/navigation menu, combat, and fishing. |
 | Roots of Pacha | Features like dialogue options, beautiful pixel art, and intuitive menus make Roots of Pacha a successful game, as well as the unique features like prophecies which tie farming mechanics into the Stone Age setting. | The fishing mechanic is very annoying and the game is often critiqued for its slow pace. | Similarly to Stardew Valley, this game has a much broader scope than what I aim to achieve in my project and goes at a slower pace than I’d like my project to, but it also includes smooth character actions which make the game accessible. |
-| Hollow Knight | Hollow Knight has a mysterious, dark, and aesthetically pleasing yet simple art style, intuitive mechanics, and concise, effective, NPC interactions as well as world-building which immerses you in the story. | The game is time consuming and can be inaccessible to casual players |             |
+| Hollow Knight | Hollow Knight has a mysterious, dark, and aesthetically pleasing yet simple art style, intuitive mechanics, and concise, effective, NPC interactions as well as world-building which immerses you in the story. | The game is time consuming and can be inaccessible to casual players | In my game I'll aim to have similar visual elements to Hollow Knight, to create an atmosphere that aligns with the themes of my project, but my game will be much more intutive and give players a more calming, story focused game |
+
+### Software Options
+| Software Option | Plus | Minus | Implication |
+| --------------- | ---- | ----- | ----------- |
+| Unity | I've already used Unity for a platformer game and there are a wide variety of tutorials available online | I find the software annoying to use and don't have experience with the type of game I'm trying to make with Unity. | My lack of specific experience with this kind of project in Unity would make my project hard to complete within the timeframe of the task |
+| Godot | I have the most experience with this software and have made a very similar farming sim game in the past which I could base my code off and just change the visuals of and add NPC interactions | It wouldn't be as challenging to use as a new platform | Godot is the most feasible option for this project, and if I used any other software I'd probably have to shrink the scope of the game |
+| Unreal Engine | It could be a good experience to try out a new software | I have no experience whatsoever with this program, it primarily uses C++ which I'm not very comfortable with, and I have no idea whether I could realistically complete this project. | Due to time constraints and my limited experience with this software it doesn't seem like a good option for this project |
+
+## Wireframes
