@@ -73,3 +73,24 @@ The game shouldn't require the user to input any personal or sensitive informati
 | Unreal Engine | It could be a good experience to try out a new software | I have no experience whatsoever with this program, it primarily uses C++ which I'm not very comfortable with, and I have no idea whether I could realistically complete this project. | Due to time constraints and my limited experience with this software it doesn't seem like a good option for this project |
 
 ## Wireframes
+[bleh]
+
+### Organised Feedback
+#### Usability
+- save in main screen
+#### Aesthetics
+- character looks bad
+#### Function
+- bigger buttons and bigger cancel buttons
+
+### Evaluation
+bleh
+
+
+# Prototype 1 - Pixel Art and Tile Maps
+## Testing
+For my design of the player I decided to represent Harrow with a skeleton because I thought that would be easier to draw in a 16 bit pixel art style than a human, however I had trouble with drawing the side profile. My first iteration was this
+
+![Harrow Side Profile - Bad](harrow_original_design.png "Harrow Pixel Art WIP")     
+
+But after recieving user feedback that this looked "gross and squishy" I was inspired to create a wider design that better represented the spherical quality of my character's head in order to effectively improve the aesthetics of my design.
