@@ -98,11 +98,25 @@ The feedback I recieved around the design homescreen makes me think that I could
 
 In order to clarify the connection between the book and my project I had planned to include a cut-scene at the beginning of the game which recreates the scene from Harrow the Ninth where Harrow confesses to the Necrolord Prime that she hasn't slept in 6 days and God encourages her to pursue new hobbies in order to fill her immortal existence with, while informing the reader that the project is set on an island off the coast of Canaan House.
 
+# Ongoing Evaluation
+### Week 10
+- try to finish pixel art and get assets working in godot
+- get basic player animations working
+### Week 1
+- continue with tutorials
+### Week 2
+- create dialogue/interactions
+### Week 3
+### Week 4
 
 # Prototype 1 - Pixel Art and Tile Maps
-## Testing
-For my design of the player I decided to represent Harrow with a skeleton because I thought that would be easier to draw in a 16 bit pixel art style than a human, however I had trouble with drawing the side profile. My first iteration was this
+## User Feedback
+For my design of the player I decided to represent Harrow with a skeleton because I thought that would be easier to draw in a 16 bit pixel art style than a human, however I had trouble with drawing the side profile. My first iteration was this:
 
 ![Harrow Side Profile - Bad](harrow_original_design.png "Harrow Pixel Art WIP")     
 
 But after recieving user feedback that this looked "gross and squishy" I was inspired to create a wider design that better represented the spherical quality of my character's head in order to effectively improve the aesthetics of my design.
+
+Throughout the designing of the tile maps and characters I also tried to make sure that the characters were visually distinct and stood out against the backgrounds given that I'm going for a monochromatic colour palette, in order to make the design accessible and aesthetically pleasing, but during my interview with Juliet I recieved feedback that my Harrow Sprite blends in with the background a little bit and looks naked due to the colour scheme. She suggested I could add a brighter blue just for the main character. This would help the user quickly identify their position on screen, enhancing the usability of my prototype. However she indicated that the grass was an aesthetic, simple, and effective design which wasn't overly busy or distracting.
+
+Similarly, the feedback I recieved from the survey suggested 
