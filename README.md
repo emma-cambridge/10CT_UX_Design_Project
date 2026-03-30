@@ -43,13 +43,13 @@ The game shouldn't require the user to input any personal or sensitive informati
 
 ## Social, Ethical, and Legal Considerations
 ### Social Impact
-- Target Audience: My target audience will be teens who will probably have good eyesight and are therefore able to read medium sized dialogue. Additionally, although the Locked Tomb Series has multiple translation, my target audience will only be english-speaking.
+- Target Audience: My target audience will be teens who will probably have good eyesight and are therefore able to read medium sized dialogue but the monochrome colours should make the project accessible to people with colour blindiness. Additionally, although the Locked Tomb Series has multiple translation, my target audience will only be english-speaking.
 - Potential Benefits: My game would give new material to a dedicated fandom, fostering conversation and connection, and interesting a new audience in the series, potentially encouraging teens to engage with literature.
-- Potential Risks: The project's necromatic themes could upset some users and also the representation of the God character from the Locked Tomb Series. To avoid these risks I'll make the home screen accurately present the darker nature of the game and use God's alternate title The Necrolord Prime
+- Potential Risks: The project's necromatic themes could upset some users and also the representation of the God character from the Locked Tomb Series. To avoid these risks I'll make the home screen accurately present the darker nature of the game and use the Locked Tomb's God's alternate title The Necrolord Prime.
 ### Ethical Responsibilities
-- User data and privacy: The game won't collect user data
+- User data and privacy: The game won't collect user data but if it did I would need to inform users of my data collection policies, gain their fully informed consent, and delete any collected data that is no longer relevant.
 - Representation and Inclusion: Despite the somewhat mundane setting of my project I'll try and accurately present the issues of immortality, sacrifice, and sapphic romance that are presented in Harrow the Ninth
-- Content sensitivity: the project will obviously contain discussions of necromancy but will avoid having any on-screen gore
+- Content sensitivity: the project will necessarily contain discussions of necromancy but will avoid having any on-screen gore. To inform users of the book's subject matter I could create a warning at the start of the game
 ### Legal Considerations
 - Copyright and Intellectual Property: The dialogue in the game will be heavily inspired by and in some cases quote the book in order to immerse the user in the experience of the book. However this will qualify as fair use, as I won't be using more than 10% of the book, won't profit off of the project, and will give credit to the original author.
 - Terms of Use: [bleh]
@@ -58,8 +58,65 @@ The game shouldn't require the user to input any personal or sensitive informati
 ![Gantt Chart](gantt_chart.png "Gantt Chart")
 
 ## PMI Table
+### UI
 | UI Name | Plus | Minus | Implication |
 | ------- | ---- | ----- | ----------- |
 | Stardew Valley | Stardew Valley’s UI allows the player to navigate through the game with an inventory at the bottom of the screen to help the player access tools for farming, a quick loading screen, effective NPC interactions, and a clock which gives the player a sense of time. | The pixel art for the game doesn’t have an aesthetically appealing colour palette. | Overall, Stardew Valley’s UI is very close to what I want to achieve with my prototype. I plan to create an inventory, clock, and player interactions similar to what appears in the game, however I’ll aim to create a more aesthetically appealing version and also narrow the scope of my project by cutting out features like the inventory/navigation menu, combat, and fishing. |
 | Roots of Pacha | Features like dialogue options, beautiful pixel art, and intuitive menus make Roots of Pacha a successful game, as well as the unique features like prophecies which tie farming mechanics into the Stone Age setting. | The fishing mechanic is very annoying and the game is often critiqued for its slow pace. | Similarly to Stardew Valley, this game has a much broader scope than what I aim to achieve in my project and goes at a slower pace than I’d like my project to, but it also includes smooth character actions which make the game accessible. |
-| Hollow Knight | Hollow Knight has a mysterious, dark, and aesthetically pleasing yet simple art style, intuitive mechanics, and concise, effective, NPC interactions as well as world-building which immerses you in the story. | The game is time consuming and can be inaccessible to casual players |             |
+| Hollow Knight | Hollow Knight has a mysterious, dark, and aesthetically pleasing yet simple art style, intuitive mechanics, and concise, effective, NPC interactions as well as world-building which immerses you in the story. | The game is time consuming and can be inaccessible to casual players | In my game I'll aim to have similar visual elements to Hollow Knight, to create an atmosphere that aligns with the themes of my project, but my game will be much more intutive and give players a more calming, story focused game |
+
+### Software Options
+| Software Option | Plus | Minus | Implication |
+| --------------- | ---- | ----- | ----------- |
+| Unity | I've already used Unity for a platformer game and there are a wide variety of tutorials available online | I find the software annoying to use and don't have experience with the type of game I'm trying to make with Unity. | My lack of specific experience with this kind of project in Unity would make my project hard to complete within the timeframe of the task |
+| Godot | I have the most experience with this software and have made a very similar farming sim game in the past which I could base my code off and just change the visuals of and add NPC interactions | It wouldn't be as challenging to use as a new platform | Godot is the most feasible option for this project, and if I used any other software I'd probably have to shrink the scope of the game |
+| Unreal Engine | It could be a good experience to try out a new software | I have no experience whatsoever with this program, it primarily uses C++ which I'm not very comfortable with, and I have no idea whether I could realistically complete this project. | Due to time constraints and my limited experience with this software it doesn't seem like a good option for this project |
+
+## Wireframes
+[picture here]
+
+### Organised Feedback
+#### Usability
+- save button in main screen
+- the navigation is clear and intuitive
+- make the time bigger
+- bigger buttons and bigger cancel buttons
+- it's easy to see how a user would interact with the site
+- a separate sound control for the music
+#### Aesthetics
+- character looks bad - "is that a tooth?"
+- the menu and main screen are intuitive and well laid out
+- the layout of the home screen is boring and not visually appealing
+#### Function
+- the mechanics of the farming aren't clear - "where are the vegetables?"
+- there isn't a clear connection between the book and the project
+
+### Evaluation
+The reoccuring feedback that the buttons on the main screen need to bigger in order to be accessible and easy to use has made me consider whether I need to redesign the layout and function of the main screen. I'm now considering adding a save button in the main menu so that users can save their game quickly without having to navigate back to the home screen, making the buttons to access the settings and home screen larger, and adding a column on the left side of the screen where the player can see the quantity of materials they've gathered instead of keeping track of these counters off-screen. However, I'll have to ensure that the screen doesn't become overcrowded or sacrifice aesthetics in order to improve these areas of usability.
+
+The feedback I recieved around the design homescreen makes me think that I could add embellishements to the title or draw some art to be displayed alongside the menu options, creating a more appealing screen to grab the user's attention and encourage them to play the game.
+
+In order to clarify the connection between the book and my project I had planned to include a cut-scene at the beginning of the game which recreates the scene from Harrow the Ninth where Harrow confesses to the Necrolord Prime that she hasn't slept in 6 days and God encourages her to pursue new hobbies in order to fill her immortal existence with, while informing the reader that the project is set on an island off the coast of Canaan House.
+
+# Ongoing Evaluation
+### Week 10
+- try to finish pixel art and get assets working in godot
+- get basic player animations working
+### Week 1
+- continue with tutorials
+### Week 2
+- create dialogue/interactions
+### Week 3
+### Week 4
+
+# Prototype 1 - Pixel Art and Tile Maps
+## User Feedback
+For my design of the player I decided to represent Harrow with a skeleton because I thought that would be easier to draw in a 16 bit pixel art style than a human, however I had trouble with drawing the side profile. My first iteration was this:
+
+![Harrow Side Profile - Bad](harrow_original_design.png "Harrow Pixel Art WIP")     
+
+But after recieving user feedback that this looked "gross and squishy" I was inspired to create a wider design that better represented the spherical quality of my character's head in order to effectively improve the aesthetics of my design.
+
+Throughout the designing of the tile maps and characters I also tried to make sure that the characters were visually distinct and stood out against the backgrounds given that I'm going for a monochromatic colour palette, in order to make the design accessible and aesthetically pleasing, but during my interview with Juliet I recieved feedback that my Harrow Sprite blends in with the background a little bit and looks naked due to the colour scheme. She suggested I could add a brighter blue just for the main character. This would help the user quickly identify their position on screen, enhancing the usability of my prototype. However she indicated that the grass was an aesthetic, simple, and effective design which wasn't overly busy or distracting.
+
+Similarly, the feedback I recieved from the survey suggested 
