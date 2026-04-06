@@ -102,12 +102,29 @@ In order to clarify the connection between the book and my project I had planned
 ### Week 10
 - try to finish pixel art and get assets working in godot
 - get basic player animations working
+
+At the beginning of this week I had the goal to finish all my assets so I could begin basic coding over the holidays and start making some more progress on the player actions and dialogue scenes as outlined in my Gantt chart. However I ran into problems as I attempted to create the vegetable/general farming art because I realised I didn't know what vegetables were avaliable in the Locked Tomb Series and remembered that the primary food source for the Ninth House was an imported nutrient paste. To solve this I did researched which highlighted that the agricultural products mentioned in the series are as follows:
+- Apples - Harrow is described as only eating red meat and apples in the aftermath of her ascension to lyctordom
+- Cattle (or a different form of red meat) - as above
+- Carrots - in the stew Harrow cooks in order to kill Ortus the First
+- Onion - as above
+- Butternut Squash or Pumpkin - an unnamed vegetable which is described as "golden" is incorporated into the stew
+- Snow leeks - A common meal served with "as much salty black sauce as it would absorb." which Gideon eats during the beginning of Gideon the Ninth. However these would not have been available at Caanan House
+- Raspberries - During the dinner party where Mercymorn and Augustine the First attempt to distract God so Harrowhark has a second chance to kill Ortus the First the dessert course is described as "tiny tart red fruits"
+
+I therefore concluded that the agricultural conditions of Caanan House mirror that of Earth and I could reasonably draw any vegetable or animal I wanted.
+
+Additionally, I had issues importing my sprites into godot due to the scale they were saved in automatically in Piskel.
+
+
 ### Week 1
 - continue with tutorials
 ### Week 2
 - create dialogue/interactions
 ### Week 3
+
 ### Week 4
+-  cut scenes???
 
 # Prototype 1 - Pixel Art and Tile Maps
 ## User Feedback
