@@ -1,6 +1,8 @@
-[gd_scene load_steps=13 format=3 uid="uid://cfmcwkshenwen"]
+[gd_scene load_steps=16 format=3 uid="uid://cfmcwkshenwen"]
 
+[ext_resource type="Script" path="res://scenes/houses/door.gd" id="1_3vhb2"]
 [ext_resource type="Texture2D" uid="uid://bvuwm368i74q3" path="res://assets/tilesets/shack.png" id="1_bqej3"]
+[ext_resource type="PackedScene" uid="uid://cxl2pfldrc1kj" path="res://scenes/components/interactable_component.tscn" id="3_q8k6s"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_t4ob3"]
 atlas = ExtResource("1_bqej3")
@@ -86,12 +88,24 @@ animations = [{
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_bc1dp"]
 size = Vector2(16, 16)
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_0odvy"]
+size = Vector2(10, 38)
+
 [node name="Door" type="StaticBody2D"]
 collision_layer = 2
+script = ExtResource("1_3vhb2")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_t26c2")
+animation = &"open_door"
 autoplay = "default"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 shape = SubResource("RectangleShape2D_bc1dp")
+
+[node name="InteractableComponent" parent="." instance=ExtResource("3_q8k6s")]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="InteractableComponent"]
+position = Vector2(0, 2)
+shape = SubResource("RectangleShape2D_0odvy")
+debug_color = Color(1.97336e-06, 0.634475, 0.428604, 0.42)
