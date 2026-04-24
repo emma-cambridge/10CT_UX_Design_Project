@@ -7,13 +7,13 @@ var log_scene = preload("res://scenes/objects/trees/log.tscn")
 
 func _ready() -> void:
 	hurt_component.hurt.connect(on_hurt)
-	damage_component.max_damage_reached.connect(on_max_damage_reached)
+	#damage_component.max_damage_reached.connect(on_max_damage_reached)
 
 
 func on_hurt(hit_damage: int) -> void:
 	damage_component.apply_damage(hit_damage)
 
-func on_max_damage_reached() -> void:
+#func on_max_damage_reached() -> void:
 	call_deferred("add_log_scene")
 	print("max damaged reached")
 	queue_free()
