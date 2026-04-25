@@ -118,13 +118,14 @@ Additionally, I had issues importing my sprites into godot due to the scale they
 
 
 ### Week 1
-- continue with tutorials
-### Week 2
 - create dialogue/interactions
+### Week 2
+- finish dialogue
+- cut scenes???
 ### Week 3
-
+- boss fight.
 ### Week 4
--  cut scenes???
+- finish of boss fight and do evaluations
 
 # Prototype 1 - Pixel Art and Tile Maps
 ## User Feedback
@@ -137,3 +138,6 @@ But after recieving user feedback that this looked "gross and squishy" I was ins
 Throughout the designing of the tile maps and characters I also tried to make sure that the characters were visually distinct and stood out against the backgrounds given that I'm going for a monochromatic colour palette, in order to make the design accessible and aesthetically pleasing, but during my interview with Juliet I recieved feedback that my Harrow Sprite blends in with the background a little bit and looks naked due to the colour scheme. She suggested I could add a brighter blue just for the main character. This would help the user quickly identify their position on screen, enhancing the usability of my prototype. However she indicated that the grass was an aesthetic, simple, and effective design which wasn't overly busy or distracting.
 
 Similarly, the feedback I recieved from the survey suggested 
+
+# Prototype 2 - Character Actions and Core Game Mechanics
+## User Feedback
