@@ -1,7 +1,7 @@
 class_name DamageComponent
 extends Node2D
 
-@export var max_damage = 1
+@export var max_damage = 5
 @export var current_damage = 0
 
 signal max_damage_reached
