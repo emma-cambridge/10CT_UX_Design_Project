@@ -19,7 +19,7 @@ tile_map_data = PackedByteArray("AAAeABMAAwACAAEAAAAeABIAAwACAAEAAAAeABEAAwAFAAE
 tile_set = ExtResource("1_j4wag")
 
 [node name="Undergrowth" type="TileMapLayer" parent="GameTilemap"]
-tile_map_data = PackedByteArray("AAAXAA0ABQAHAAAAAAAZAA0ABQAIAAAAAAAXAA8ABQAFAAEAAAAZAA8ABQAHAAEAAAA=")
+tile_map_data = PackedByteArray("AAAXAA0ABQAHAAAAAAAZAA0ABQAIAAAAAAAXAA8ABQAFAAEAAAAZAA8ABQAHAAEAAAAcAAkAAQAAAAAAAQA=")
 tile_set = ExtResource("1_j4wag")
 
 [node name="Overgrowth" type="TileMapLayer" parent="GameTilemap"]
