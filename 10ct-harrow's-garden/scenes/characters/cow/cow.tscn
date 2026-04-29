@@ -55,9 +55,10 @@ animations = [{
 }]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_os6vl"]
-radius = 6.08276
+radius = 6.0
 
 [node name="Cow" type="CharacterBody2D"]
+collision_layer = 64
 script = ExtResource("1_5bc31")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
@@ -67,11 +68,12 @@ animation = &"idle"
 autoplay = "idle"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(0, -6)
+position = Vector2(-1, -7)
 shape = SubResource("CircleShape2D_os6vl")
 
 [node name="NavigationAgent2D" type="NavigationAgent2D" parent="."]
 navigation_layers = 2
+path_postprocessing = 1
 avoidance_enabled = true
 
 [node name="StateMachine" type="Node2D" parent="." node_paths=PackedStringArray("initial_node_state")]
