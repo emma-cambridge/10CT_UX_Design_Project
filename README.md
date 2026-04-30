@@ -100,8 +100,6 @@ In order to clarify the connection between the book and my project I had planned
 
 # Ongoing Evaluation
 ### Week 10
-- try to finish pixel art and get assets working in godot
-- get basic player animations working
 
 At the beginning of this week I had the goal to finish all my assets so I could begin basic coding over the holidays and start making some more progress on the player actions and dialogue scenes as outlined in my Gantt chart. However I ran into problems as I attempted to create the vegetable/general farming art because I realised I didn't know what vegetables were avaliable in the Locked Tomb Series and remembered that the primary food source for the Ninth House was an imported nutrient paste. To solve this I did researched which highlighted that the agricultural products mentioned in the series are as follows:
 - Apples - Harrow is described as only eating red meat and apples in the aftermath of her ascension to lyctordom
@@ -117,11 +115,18 @@ I therefore concluded that the agricultural conditions of Caanan House mirror th
 Additionally, I had issues importing my sprites into godot due to the scale they were saved in automatically in Piskel.
 
 
-### Week 1
-- create dialogue/interactions
-### Week 2
-- finish dialogue
-- cut scenes???
+### Week 1-2
+![Fences, Cows, Chickens](Recording_2026-04-30_114915.mp4 "Animals")
+
+Progress this week:
+- Choppable trees with collectable logs
+- Mineable rocks with stone collectables
+- Shaking shader
+- Started Y sorting my main scene
+- Added chicken and cow sprites
+- Fences
+- Inventory
+
 ### Week 3
 - boss fight.
 ### Week 4
