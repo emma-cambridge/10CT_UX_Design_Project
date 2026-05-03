@@ -54,6 +54,7 @@ layout_mode = 2
 [node name="ToolAxe" type="Button" parent="MarginContainer/HBoxContainer"]
 custom_minimum_size = Vector2(26, 26)
 layout_mode = 2
+focus_mode = 1
 theme_type_variation = &"ToolButton"
 icon = SubResource("AtlasTexture_dv0ov")
 icon_alignment = 1
@@ -61,6 +62,7 @@ icon_alignment = 1
 [node name="ToolTilling" type="Button" parent="MarginContainer/HBoxContainer"]
 custom_minimum_size = Vector2(26, 26)
 layout_mode = 2
+focus_mode = 1
 theme_type_variation = &"ToolButton"
 icon = SubResource("AtlasTexture_tsgg8")
 icon_alignment = 1
@@ -68,6 +70,7 @@ icon_alignment = 1
 [node name="ToolWateringCan" type="Button" parent="MarginContainer/HBoxContainer"]
 custom_minimum_size = Vector2(26, 26)
 layout_mode = 2
+focus_mode = 1
 theme_type_variation = &"ToolButton"
 icon = SubResource("AtlasTexture_7lohh")
 icon_alignment = 1
@@ -75,6 +78,7 @@ icon_alignment = 1
 [node name="ToolCarrot" type="Button" parent="MarginContainer/HBoxContainer"]
 custom_minimum_size = Vector2(26, 26)
 layout_mode = 2
+focus_mode = 1
 theme_type_variation = &"ToolButton"
 icon = SubResource("AtlasTexture_m10cg")
 icon_alignment = 1
@@ -82,9 +86,13 @@ icon_alignment = 1
 [node name="ToolTomato" type="Button" parent="MarginContainer/HBoxContainer"]
 custom_minimum_size = Vector2(26, 26)
 layout_mode = 2
+focus_mode = 1
 theme_type_variation = &"ToolButton"
 icon = SubResource("AtlasTexture_5lfvn")
 icon_alignment = 1
 
 [connection signal="pressed" from="MarginContainer/HBoxContainer/ToolAxe" to="." method="_on_tool_axe_pressed"]
 [connection signal="pressed" from="MarginContainer/HBoxContainer/ToolTilling" to="." method="_on_tool_tilling_pressed"]
+[connection signal="pressed" from="MarginContainer/HBoxContainer/ToolWateringCan" to="." method="_on_tool_watering_can_pressed"]
+[connection signal="pressed" from="MarginContainer/HBoxContainer/ToolCarrot" to="." method="_on_tool_carrot_pressed"]
+[connection signal="pressed" from="MarginContainer/HBoxContainer/ToolTomato" to="." method="_on_tool_tomato_pressed"]
