@@ -99,26 +99,11 @@ The feedback I recieved around the design homescreen makes me think that I could
 In order to clarify the connection between the book and my project I had planned to include a cut-scene at the beginning of the game which recreates the scene from Harrow the Ninth where Harrow confesses to the Necrolord Prime that she hasn't slept in 6 days and God encourages her to pursue new hobbies in order to fill her immortal existence with, while informing the reader that the project is set on an island off the coast of Canaan House.
 
 # Ongoing Evaluation
-### Week 10
-
-At the beginning of this week I had the goal to finish all my assets so I could begin basic coding over the holidays and start making some more progress on the player actions and dialogue scenes as outlined in my Gantt chart. However I ran into problems as I attempted to create the vegetable/general farming art because I realised I didn't know what vegetables were avaliable in the Locked Tomb Series and remembered that the primary food source for the Ninth House was an imported nutrient paste. To solve this I did researched which highlighted that the agricultural products mentioned in the series are as follows:
-- Apples - Harrow is described as only eating red meat and apples in the aftermath of her ascension to lyctordom
-- Cattle (or a different form of red meat) - as above
-- Carrots - in the stew Harrow cooks in order to kill Ortus the First
-- Onion - as above
-- Butternut Squash or Pumpkin - an unnamed vegetable which is described as "golden" is incorporated into the stew
-- Snow leeks - A common meal served with "as much salty black sauce as it would absorb." which Gideon eats during the beginning of Gideon the Ninth. However these would not have been available at Caanan House
-- Raspberries - During the dinner party where Mercymorn and Augustine the First attempt to distract God so Harrowhark has a second chance to kill Ortus the First the dessert course is described as "tiny tart red fruits"
-
-I therefore concluded that the agricultural conditions of Caanan House mirror that of Earth and I could reasonably draw any vegetable or animal I wanted.
-
-Additionally, I had issues importing my sprites into godot due to the scale they were saved in automatically in Piskel.
-
 
 ### Week 1-2
-![Fences, Cows, Chickens](Recording_2026-04-30_114915.mp4 "Animals")
+![Fences, Cows, Chickens video](Recording_2026-04-30_114915.mp4 "Animals")
 
-Progress this week:
+Progress this fortnight:
 - Choppable trees with collectable logs
 - Mineable rocks with stone collectables
 - Shaking shader
@@ -127,10 +112,16 @@ Progress this week:
 - Fences
 - Inventory
 
+Over these two weeks, as I started working on the UI I ran into some issues creating the various boxes I would need due to my monochrome colour scheme. I wanted to make sure the UI elements would be visibly distinct from anywhere on the screen which was hard with a limited shade/colour range. To fix this I tried to make sure each of the boxes had both a dark outline and a lighter centre so that even if you couldn't see one you could see the other. I also made sure the tools in the inventory had a bright white outline to make them stand out from their buttons.
+
+Additionally, I ran into a few different debugging issues. Once I had added the shader to my trees the chopping function stopped working and I got an error message I didn't understand. I attempted to solve the issue in different ways but eventually discovered the problem by accident when I was looking at my different nodes and realised the HitComponent hadn't been assigned the AxeWood variable even though its parent node Player had. Other than that I had minor issues with one of the frames of animation in my cow sprite being a different colour but that was easily fixed, and when I was creating the Y sorting function I found that my player would sometimes go through the objects at strange times but this was fixed when I realised I could lower or raise the point at which the Y sorting comes into effect on each of the different object sprites.
+
+I believe my time management this week was quite effective. Even though I'm slightly behind my gantt chart in that I haven't started working on the dialogue yet, I think I have more than enough time to complete the project in the next two weeks and if I maintain this pace I might be able to add a cutscene to the start of my game like I originally wanted to and maybe even a boss fight at the end of the game, although that seems a little optimistic. Overall, I'm happy with how I'm going and think I've made good use of time this week.
+
+Next week, I want to continue developing the UI and ideally finish off the core game mechanics like planting crops. I'd also like to spend some time running the program on a different computer to see if that fixes a few of the problems I'm having with my shader at the moment. Otherwise I might have to remove it or find a different way to show the user that they're hitting the tree :(
+
 ### Week 3
-- boss fight.
 ### Week 4
-- finish of boss fight and do evaluations
 
 # Prototype 1 - Pixel Art and Tile Maps
 ## User Feedback
