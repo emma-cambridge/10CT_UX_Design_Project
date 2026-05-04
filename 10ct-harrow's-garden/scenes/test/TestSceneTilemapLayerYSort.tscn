@@ -1,7 +1,8 @@
-[gd_scene load_steps=3 format=4 uid="uid://b1l1mjclvty0a"]
+[gd_scene load_steps=4 format=4 uid="uid://b1l1mjclvty0a"]
 
 [ext_resource type="TileSet" uid="uid://dgl4hptnv1x7i" path="res://Tilesets/game_tile_set.tres" id="1_j4wag"]
 [ext_resource type="PackedScene" uid="uid://dcgp4wdi08vpd" path="res://scenes/characters/player/player.tscn" id="2_35ty8"]
+[ext_resource type="PackedScene" uid="uid://dmj0kumnw70vv" path="res://scenes/ui/game_screen.tscn" id="3_nh0ga"]
 
 [node name="TestSceneTilemapLayerYSort" type="Node2D"]
 y_sort_enabled = true
@@ -19,7 +20,7 @@ tile_map_data = PackedByteArray("AAAeABMAAwACAAEAAAAeABIAAwACAAEAAAAeABEAAwAFAAE
 tile_set = ExtResource("1_j4wag")
 
 [node name="Undergrowth" type="TileMapLayer" parent="GameTilemap"]
-tile_map_data = PackedByteArray("AAAXAA0ABQAHAAAAAAAZAA0ABQAIAAAAAAAXAA8ABQAFAAEAAAAZAA8ABQAHAAEAAAA=")
+tile_map_data = PackedByteArray("AAAXAA0ABQAHAAAAAAAZAA0ABQAIAAAAAAAXAA8ABQAFAAEAAAAZAA8ABQAHAAEAAAAcAAkAAQAAAAAAAQA=")
 tile_set = ExtResource("1_j4wag")
 
 [node name="Overgrowth" type="TileMapLayer" parent="GameTilemap"]
@@ -36,3 +37,5 @@ tile_set = ExtResource("1_j4wag")
 position = Vector2(205, 179)
 
 [node name="Camera2D" type="Camera2D" parent="Player"]
+
+[node name="GameScreen" parent="." instance=ExtResource("3_nh0ga")]

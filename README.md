@@ -3,7 +3,7 @@
 #### Design Brief
 My project will be a farming simulator where the player is required to farm necromatic ingredients while learning about the world of Harrow the Ninth through NPC interactions and cut scenes. My target audience is people aged 15+ who are interested in fantasy settings and farming games.
 #### Book Choice and Justification
-Harrow the Ninth by Tamsyn Muir follows the journey of necromancer Harrowhark Nonegasimus after her ascension to Lyctorhood in the preceeding book Gideon the Ninth, as she tries to become a soldier for the Necrolord Prime.But while Harrow navigates her new life in the Mithraeum with her apathetic and enigmatic teachers she slowly unravels the secrets a past version of herself has chosen to lock away deep in her subconscious. 
+Harrow the Ninth by Tamsyn Muir follows the journey of necromancer Harrowhark Nonegasimus after her ascension to Lyctorhood in the preceeding book Gideon the Ninth, as she tries to become a soldier for the Necrolord Prime. But while Harrow navigates her new life in the Mithraeum with her apathetic and enigmatic teachers, she slowly unravels the secrets a past version of herself has locked away deep in her subconscious. 
 #### User Experience Type
 My project will be a video game to allow the user to interact with the world of the Locked Tomb Series, and engage with the themes of depression, disillusionment, and how to move on after losing a loved one by putting them in Harrow's shoes.
 #### Target Market
@@ -120,20 +120,18 @@ I believe my time management this week was quite effective. Even though I'm slig
 
 Next week, I want to continue developing the UI and ideally finish off the core game mechanics like planting crops. I'd also like to spend some time running the program on a different computer to see if that fixes a few of the problems I'm having with my shader at the moment. Otherwise I might have to remove it or find a different way to show the user that they're hitting the tree :(
 
-### Week 3
-### Week 4
+### Week 3-4
 
 # Prototype 1 - Pixel Art and Tile Maps
 ## User Feedback
-For my design of the player I decided to represent Harrow with a skeleton because I thought that would be easier to draw in a 16 bit pixel art style than a human, however I had trouble with drawing the side profile. My first iteration was this:
 
 ![Harrow Side Profile - Bad](harrow_original_design.png "Harrow Pixel Art WIP")     
 
-But after recieving user feedback that this looked "gross and squishy" I was inspired to create a wider design that better represented the spherical quality of my character's head in order to effectively improve the aesthetics of my design.
+During my interview with Juliet I recieved feedback that the above design for my Harrow Sprite blends in with the background a little bit and looks naked due to the colour scheme. She also suggested I could add a brighter blue just for the main character. This would help the user quickly identify their position on screen, enhancing the usability of my prototype. However she indicated that the grass was an aesthetic, simple, and effective design which wasn't overly busy or distracting.
 
-Throughout the designing of the tile maps and characters I also tried to make sure that the characters were visually distinct and stood out against the backgrounds given that I'm going for a monochromatic colour palette, in order to make the design accessible and aesthetically pleasing, but during my interview with Juliet I recieved feedback that my Harrow Sprite blends in with the background a little bit and looks naked due to the colour scheme. She suggested I could add a brighter blue just for the main character. This would help the user quickly identify their position on screen, enhancing the usability of my prototype. However she indicated that the grass was an aesthetic, simple, and effective design which wasn't overly busy or distracting.
+In contrast, the feedback I recieved from the survey suggested that despite the grey colour palette the assets all stood out from each other, creating a complementary yet highly distinctive main game scene. While one responder thought the chicken animation was too slow, the art for the animations was viewed as aesthetically effective.
 
-Similarly, the feedback I recieved from the survey suggested 
+Based on these responses the pixel art appears to be user-friendly and aesthetically pleasing, with survey-answers specifically highlighting usability and visibility of the assets. Although in my interview with Juliet she told me that the pixel art seems to blend together a bit, I think me showing her the sprites separately instead of in the one game scene likely contributed to this. Going forward my first priority will be to modify the player design to create a wider design tobetter represent the spherical quality of the skull.
 
 # Prototype 2 - Character Actions and Core Game Mechanics
 ## User Feedback
