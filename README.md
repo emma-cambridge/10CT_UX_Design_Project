@@ -122,8 +122,7 @@ Next week, I want to continue developing the UI and ideally finish off the core 
 
 ### Week 3-4
 
-# Prototype 1 - Pixel Art and Tile Maps
-## User Feedback
+# Sprint 1 - Pixel Art and Tile Maps
 
 ![Harrow Side Profile - Bad](harrow_original_design.png "Harrow Pixel Art WIP")     
 
@@ -133,5 +132,4 @@ In contrast, the feedback I recieved from the survey suggested that despite the 
 
 Based on these responses the pixel art appears to be user-friendly and aesthetically pleasing, with survey-answers specifically highlighting usability and visibility of the assets. Although in my interview with Juliet she told me that the pixel art seems to blend together a bit, I think me showing her the sprites separately instead of in the one game scene likely contributed to this. Going forward my first priority will be to modify the player design to create a wider design tobetter represent the spherical quality of the skull.
 
-# Prototype 2 - Character Actions and Core Game Mechanics
-## User Feedback
+# Sprint 2 - Character Actions and Core Game Mechanics

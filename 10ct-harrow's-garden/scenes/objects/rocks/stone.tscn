@@ -11,6 +11,7 @@ region = Rect2(128, 32, 16, 16)
 radius = 3.0
 
 [node name="Stone" type="Sprite2D"]
+y_sort_enabled = true
 position = Vector2(1, 2)
 texture = SubResource("AtlasTexture_plpsh")
 
