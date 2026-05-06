@@ -1,12 +1,14 @@
-[gd_scene load_steps=12 format=3 uid="uid://saqwkrfev0eu"]
+[gd_scene load_steps=15 format=3 uid="uid://saqwkrfev0eu"]
 
-[ext_resource type="Theme" uid="uid://b0kgvb7wae5em" path="res://scenes/ui/game_ui_theme.tres" id="1_nesvj"]
-[ext_resource type="Texture2D" uid="uid://q3g1fb71gbsf" path="res://assets/objects/basic_tools_and_materials.png" id="2_2ck7n"]
-[ext_resource type="Texture2D" uid="uid://d1m0maien8aev" path="res://assets/objects/basic_plants.png" id="3_kuv8r"]
-[ext_resource type="Texture2D" uid="uid://boejq8powb2yu" path="res://assets/objects/egg_item.png" id="4_56226"]
+[ext_resource type="Theme" uid="uid://b0kgvb7wae5em" path="res://scenes/ui/game_ui_theme.tres" id="1_jlpro"]
+[ext_resource type="Script" path="res://scenes/ui/inventory_panel.gd" id="2_71t55"]
+[ext_resource type="Texture2D" uid="uid://q3g1fb71gbsf" path="res://assets/objects/basic_tools_and_materials.png" id="2_v2bnv"]
+[ext_resource type="Texture2D" uid="uid://d1m0maien8aev" path="res://assets/objects/basic_plants.png" id="3_m2smn"]
+[ext_resource type="Texture2D" uid="uid://boejq8powb2yu" path="res://assets/objects/egg_item.png" id="4_cm18g"]
+[ext_resource type="Texture2D" uid="uid://xik28j0ttx4c" path="res://assets/objects/milk_item.png" id="5_6aa55"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_p6ej0"]
-atlas = ExtResource("2_2ck7n")
+atlas = ExtResource("2_v2bnv")
 region = Rect2(16, 16, 16, 16)
 
 [sub_resource type="CompressedTexture2D" id="CompressedTexture2D_6gyxp"]
@@ -17,7 +19,7 @@ atlas = SubResource("CompressedTexture2D_6gyxp")
 region = Rect2(0, 16, 16, 16)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_j1ap3"]
-atlas = ExtResource("3_kuv8r")
+atlas = ExtResource("3_m2smn")
 region = Rect2(80, 0, 16, 16)
 
 [sub_resource type="CompressedTexture2D" id="CompressedTexture2D_u50n4"]
@@ -28,14 +30,19 @@ atlas = SubResource("CompressedTexture2D_u50n4")
 region = Rect2(80, 16, 16, 16)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_k4467"]
-atlas = ExtResource("4_56226")
+atlas = ExtResource("4_cm18g")
 region = Rect2(0, 0, 16, 16)
 
-[node name="InventoryContainer" type="PanelContainer"]
+[sub_resource type="AtlasTexture" id="AtlasTexture_otr10"]
+atlas = ExtResource("5_6aa55")
+region = Rect2(32, 0, 16, 16)
+
+[node name="InventoryPanel" type="PanelContainer"]
 offset_right = 40.0
 offset_bottom = 40.0
-theme = ExtResource("1_nesvj")
+theme = ExtResource("1_jlpro")
 theme_type_variation = &"WoodPanel"
+script = ExtResource("2_71t55")
 
 [node name="MarginContainer" type="MarginContainer" parent="."]
 layout_mode = 2
@@ -112,7 +119,7 @@ size_flags_horizontal = 4
 size_flags_vertical = 0
 texture = SubResource("AtlasTexture_bbkt1")
 
-[node name="CarrotLabel" type="Label" parent="MarginContainer/VBoxContainer/Tomato"]
+[node name="TomatoLabel" type="Label" parent="MarginContainer/VBoxContainer/Tomato"]
 layout_mode = 2
 size_flags_horizontal = 4
 size_flags_vertical = 8
@@ -131,6 +138,24 @@ size_flags_vertical = 0
 texture = SubResource("AtlasTexture_k4467")
 
 [node name="EggLabel" type="Label" parent="MarginContainer/VBoxContainer/Egg"]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 8
+theme_type_variation = &"InventoryLabel"
+text = "0"
+
+[node name="Milk" type="PanelContainer" parent="MarginContainer/VBoxContainer"]
+custom_minimum_size = Vector2(26, 32)
+layout_mode = 2
+theme_type_variation = &"InventoryItemPanel"
+
+[node name="TextureRect" type="TextureRect" parent="MarginContainer/VBoxContainer/Milk"]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 0
+texture = SubResource("AtlasTexture_otr10")
+
+[node name="MilkLabel" type="Label" parent="MarginContainer/VBoxContainer/Milk"]
 layout_mode = 2
 size_flags_horizontal = 4
 size_flags_vertical = 8
