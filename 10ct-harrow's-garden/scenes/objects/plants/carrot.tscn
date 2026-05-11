@@ -1,0 +1,36 @@
+[gd_scene load_steps=8 format=3 uid="uid://htd6phf0vt6w"]
+
+[ext_resource type="Script" path="res://scenes/objects/plants/carrot.gd" id="1_bpc6d"]
+[ext_resource type="Texture2D" uid="uid://d1m0maien8aev" path="res://assets/objects/basic_plants.png" id="1_i58wa"]
+[ext_resource type="PackedScene" uid="uid://mpnielal2m10" path="res://scenes/components/hurt_component.tscn" id="2_4ucfw"]
+[ext_resource type="PackedScene" uid="uid://brglybqvhpq6n" path="res://scenes/objects/plants/watering_particles.tscn" id="2_k2oyt"]
+[ext_resource type="PackedScene" uid="uid://b7q1kpk65vkdr" path="res://scenes/objects/plants/flowering_particles.tscn" id="3_pdk65"]
+[ext_resource type="PackedScene" uid="uid://b1abm5vlihmxj" path="res://scenes/objects/plants/growth_cycle_component.tscn" id="5_g1us4"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_tljyo"]
+size = Vector2(13, 8)
+
+[node name="Carrot" type="Node2D"]
+y_sort_enabled = true
+script = ExtResource("1_bpc6d")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(0, -4)
+texture = ExtResource("1_i58wa")
+hframes = 6
+vframes = 2
+frame = 1
+
+[node name="WateringParticles" parent="." instance=ExtResource("2_k2oyt")]
+
+[node name="FloweringParticles" parent="." instance=ExtResource("3_pdk65")]
+
+[node name="GrowthCycleComponent" parent="." instance=ExtResource("5_g1us4")]
+
+[node name="HurtComponent" parent="." instance=ExtResource("2_4ucfw")]
+tool = 3
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="HurtComponent"]
+position = Vector2(-0.5, -1)
+shape = SubResource("RectangleShape2D_tljyo")
+debug_color = Color(0, 0.595, 0.7, 0.337255)
