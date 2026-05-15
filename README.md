@@ -130,6 +130,14 @@ During my interview with Juliet I recieved feedback that the above design for my
 
 In contrast, the feedback I recieved from the survey suggested that despite the grey colour palette the assets all stood out from each other, creating a complementary yet highly distinctive main game scene. While one responder thought the chicken animation was too slow, the art for the animations was viewed as aesthetically effective.
 
-Based on these responses the pixel art appears to be user-friendly and aesthetically pleasing, with survey-answers specifically highlighting usability and visibility of the assets. Although in my interview with Juliet she told me that the pixel art seems to blend together a bit, I think me showing her the sprites separately instead of in the one game scene likely contributed to this. Going forward my first priority will be to modify the player design to create a wider design tobetter represent the spherical quality of the skull.
+Based on these responses the pixel art appears to be user-friendly and aesthetically pleasing, with survey-answers specifically highlighting usability and visibility of the assets. Although in my interview with Juliet she told me that the pixel art seems to blend together a bit, I think me showing her the sprites separately instead of in the one game scene like in the survey likely contributed to this. Going forward my first priority will be to modify the player design to create a wider design to better represent the spherical quality of the skull.
 
 # Sprint 2 - Character Actions and Core Game Mechanics
+
+The main issue that was raised across both my survey and interview was that the watering and tilling actions are currently irritating and detract from the user experience which will be a necessary problem to fix going forward. Additionally many respondents on the survey raised the idea of being able to chop down the house. However, this won't be a priority for me as it doesn't seem to have had a large impact on their experience of the game.
+
+Based on this feedback I would say this prototype is somewhat user friendly with elements like the time component, inventory, and mining functions worked effectively, while the planting actions contained some bugs and were confusing for the users to navigate.
+
+The survey and interview both highlighted similar problems, however in the interview I was able to actively watch my user interact with the prototype and discovered bugs like the ability to plant seeds inside the house that I wouldn't have discovered in a survey. In contrast the survey allowed me to see the common themes in the responses due to the mix of quantitative and qualitative data.
+
+During my next sprint the most critical area to focus on is the planting and growing functions as they were the most commonly disliked component from the feedback and are a core part of the game. In order to fix this I'll experiment with expanding the collision shape on the hit component, rewrite parts of the code where necessary, and move the collision shape for the watering can so that it's below the player
