@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ceqbydux07quw"
-path="res://.godot/imported/main_ui_elements.png-81bb2d56835d0927b0349c0063798ac2.ctex"
+uid="uid://cauuw6ccrvvfk"
+path="res://.godot/imported/harrow_emotes.png-e5e81f3f478817dc74bc9cbda878721c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/ui/main_ui_elements.png"
-dest_files=["res://.godot/imported/main_ui_elements.png-81bb2d56835d0927b0349c0063798ac2.ctex"]
+source_file="res://assets/ui/character_emotes/harrow_emotes.png"
+dest_files=["res://.godot/imported/harrow_emotes.png-e5e81f3f478817dc74bc9cbda878721c.ctex"]
 
 [params]
 

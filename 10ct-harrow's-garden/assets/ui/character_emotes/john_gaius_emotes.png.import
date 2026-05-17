@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ceqbydux07quw"
-path="res://.godot/imported/main_ui_elements.png-81bb2d56835d0927b0349c0063798ac2.ctex"
+uid="uid://dn0yaxqxym6y8"
+path="res://.godot/imported/john_gaius_emotes.png-9f7ff9041d021652a5a434fc115eb3e9.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/ui/main_ui_elements.png"
-dest_files=["res://.godot/imported/main_ui_elements.png-81bb2d56835d0927b0349c0063798ac2.ctex"]
+source_file="res://assets/ui/character_emotes/john_gaius_emotes.png"
+dest_files=["res://.godot/imported/john_gaius_emotes.png-9f7ff9041d021652a5a434fc115eb3e9.ctex"]
 
 [params]
 

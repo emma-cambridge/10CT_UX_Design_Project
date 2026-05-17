@@ -13,6 +13,7 @@ func _ready() -> void:
 	interactable_component.interactable_deactivated.connect(on_interactable_deactivated)
 	interactable_label_component.hide()
 	
+	GameDialogueManager.give_crop_seeds.connect(on_give_crop_seeds)
 
 
 func on_interactable_activated() -> void:

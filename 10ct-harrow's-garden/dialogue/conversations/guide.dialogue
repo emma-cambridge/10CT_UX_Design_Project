@@ -1,11 +1,11 @@
 ~ start
-Nathan: [[Hi|Hello|Howdy]], this is some dialogue.
-Nathan: Here are some choices.
-- First one
-	Nathan: You picked the first one.
-- Second one
-	Nathan: You picked the second one.
-- Start again => start
-- End the conversation => END
-Nathan: For more information see the online documentation.
+
+Necrolord Prime: hi
+Necrolord Prime: here are some seeds
+- Take crops seeds
+	Harrow: oh thanks
+	do GameDialogueManager.action_give_crop_seeds()
+- Don't take crop seeds
+	Harrow: no thank you
+
 => END

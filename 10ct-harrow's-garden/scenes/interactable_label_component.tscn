@@ -1,6 +1,6 @@
 [gd_scene load_steps=4 format=3 uid="uid://dcpbkx3slugy7"]
 
-[ext_resource type="Texture2D" uid="uid://b7xkrlcy4j8h" path="res://assets/ui/main_ui_elements.png" id="1_hbrdr"]
+[ext_resource type="Texture2D" uid="uid://ceqbydux07quw" path="res://assets/ui/main_ui_elements.png" id="1_hbrdr"]
 [ext_resource type="FontVariation" uid="uid://btuu1jtv2un2p" path="res://assets/ui/fonts/zx_palm_variation.tres" id="2_il5l0"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_2aeoe"]
